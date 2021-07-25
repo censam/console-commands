@@ -3,6 +3,7 @@
 <?php
 
 use Acme\NewCommand;
+use Acme\RenderCommand;
 use Acme\SayHelloCommand;
 use Symfony\Component\Console\Application;
 require('vendor/autoload.php');
@@ -13,5 +14,7 @@ $app = new Application('Task App', '1.0');
 $app->add(new SayHelloCommand);
 
 $app->add(new NewCommand(new GuzzleHttp\Client));
+
+$app->add(new RenderCommand);
 
 $app->run(); 
