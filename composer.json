@@ -1,0 +1,19 @@
+{
+    "name": "sampath/console-commands",
+    "description": "this project creates commandline app",
+    "type": "project",
+    "require": {
+        "symfony/console": "^5.3"
+    },
+    "authors": [
+        {
+            "name": "Sampath  Gunasekara",
+            "email": "wgsampath@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "Acme\\":"src"
+        }
+    }
+}
