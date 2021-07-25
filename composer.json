@@ -3,7 +3,8 @@
     "description": "this project creates commandline app",
     "type": "project",
     "require": {
-        "symfony/console": "^5.3"
+        "symfony/console": "^5.3",
+        "guzzlehttp/guzzle": "^7.3"
     },
     "authors": [
         {
